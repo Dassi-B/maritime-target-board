@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+websockets
+sqlalchemy
+databases
+asyncpg  # If using Postgres
+aiofiles
+python-multipart
+pytest
+httpx
