@@ -10,7 +10,7 @@ const threatColors = {
   high: "#f87171"
 };
 
-function TargetTable({ targets, onSelect }) {
+export function TargetTable({ targets, onSelect }) {
   return (
     <table>
       <thead>

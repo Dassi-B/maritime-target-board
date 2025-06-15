@@ -22,3 +22,17 @@ Ensure Docker and Docker Compose are installed. Then:
 
 ```bash
 docker-compose -f docker-compose-dev.yml up --build
+
+---
+
+## 🚀 How to Run Tests
+
+Backend:
+```bash
+docker exec -it maritime-target-board-backend-1 bash
+<<
+pytest
+
+Frontend:
+````bash
+npm test
